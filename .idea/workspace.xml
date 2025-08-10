@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1296dd58-83ea-4590-b8ec-43d24a08dd7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/initial assignment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables program.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/If-else condition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data conversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initial assignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/initial assignment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yu.py" beforeDir="false" afterPath="$PROJECT_DIR$/yu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,22 +26,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="30jB0HAy7I4LaN3I2DxAWFNTMZs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.initial assignment.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Swapnil Patil/Downloads/PythonPractices/python/pythonpratices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.initial assignment.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;logoff&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Swapnil Patil/Downloads/PythonPractices/python/pythonpratices&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="initial assignment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonpratices" />
