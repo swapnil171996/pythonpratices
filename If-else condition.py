@@ -112,7 +112,7 @@ else:
 num7 = 99
 result1= "even number" if num7%2==0 else "odd number"
 print("result1",result1)
-
+'''
 #write program for calculator #while True:--> to run program infinite loop
 print("please select option\n""1. Addition \n"
 "2.Multiplication \n"
@@ -133,3 +133,4 @@ elif choise==4:
     print("divide:",var1/var2)
 else:
    print("enter the correct choise number")
+'''
