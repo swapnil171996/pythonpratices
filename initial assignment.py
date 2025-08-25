@@ -114,8 +114,8 @@ str_a="Python"
 P Y T H O N
 -6 -5 -4 -3 -2 -1 -indexing
 '''
-print(str_a[0])
-print(str_a[-6])
+print(str_a[0]) #p
+print(str_a[-6]) #p
 
 str_b="Hello"
 print(str_b[2])
