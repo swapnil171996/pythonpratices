@@ -1,0 +1,34 @@
+In pytest, request.node.name is a built-in attribute that gives you the name of the currently running test function.
+Here’s a breakdown:
+- 🔹 request → A special fixture in pytest that provides access to the test context.
+- 🔹 node → Represents the test item (like a function, class, or module) being executed.
+- 🔹 name → The actual name of the test function (string).
+Example
+import pytest
+
+@pytest.fixture
+def my_fixture(request):
+    print("\nCurrently running:", request.node.name)
+    yield
+    print("Finished:", request.node.name)
+
+def test_example(my_fixture):
+    assert 1 + 1 == 2
+
+def test_another(my_fixture):
+    assert "pytest".upper() == "PYTEST"
+
+
+Output
+Currently running: test_example
+Finished: test_example
+Currently running: test_another
+Finished: test_another
+
+
+✅ This is useful for:
+- Debugging
+- Logging test execution
+- Dynamically adjusting fixture behavior based on the test name
+
+Since you’re methodical with pytest project setup, would you like me to also show you how request.node can give markers and scope information (not just the name)? That way you can build more flexible fixtures.
