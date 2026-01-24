@@ -16,3 +16,7 @@ else:
 
 num7 = 90
 result = "even number" if num7%2 == 0 else "odd number"
+
+num8=67
+result1="even numner" if num8%2==0 else "odd number"
+print(result1)

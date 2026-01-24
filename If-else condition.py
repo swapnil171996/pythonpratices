@@ -12,6 +12,10 @@ if num1%2==0:
 else:
     print("number is odd")
 
+num2=90
+result="even number" if num2%2==0 else "odd number"
+print(result)
+
 '''logical operator
 >:greater then
 <:less then

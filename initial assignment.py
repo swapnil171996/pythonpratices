@@ -21,7 +21,24 @@ a=b=c=70
 3.variable name cannot contains special characters
 '''
 #Math operator:- +,-,*,/,//,==,!=,%.**
-
+a = 5 + 3
+print(a)  # Output: 8
+b = 10 - 4
+print(b)  # Output: 6
+c = 7 * 2
+print(c)  # Output: 14
+d = 8 / 2
+print(d)  # Output: 4.0
+e = 9 // 2
+print(e)  # Output: 4
+print(5 == 5)  # Output: True
+print(5 == 3)  # Output: False
+print(5 != 3)  # Output: True
+print(5 != 5)  # Output: False
+f = 10 % 3
+print(f)  # Output: 1
+g = 2 ** 3
+print(g)  # Output: 8
 '''
 Python Data Type
 1.Numbers
@@ -131,7 +148,7 @@ print("*"*50)
 
 #########List DataType ##############
 '''
--> list is mutabledata type,once it is defined we can change it.
+-> list is mutable data type,once it is defined we can change it.
 ->list can contains all type of data int,float,str,list,tuple,dict,set,boolean.
 ->list follows positive and negative indexing as like string
 ->list values are comma seperated.
@@ -143,6 +160,7 @@ list2.append(100)
 print(list2)
 print(list1[2])
 '''
+
 import keyword
 print(keyword.kwlist)'''
 
@@ -188,6 +206,7 @@ print(tup3)
 ->dictionary value can be duplicate in the data set.
 '''
 dict1={'a':123,'b':456}
+
 print(dict1['a'])
 dict1['c']=500
 print(dict1,type(dict1))

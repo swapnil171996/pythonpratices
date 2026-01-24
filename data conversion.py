@@ -113,7 +113,7 @@ tuple1=('h','k','m',8,9,67)
 str9=str(tuple1)
 print("str9:",type(str9),str9[3]) #str9: <class 'str'> '
 
-tuple1=['h','k','m',8,9,67]
+tuple1=('h','k','m',8,9,67)
 list4=list(tuple1)
 print("list4:",type(list4),list4[3]) #list4: <class 'list'> 8
 '''
