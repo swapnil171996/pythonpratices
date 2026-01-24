@@ -1,0 +1,73 @@
+PS C:\Users\Swapnil Patil\Downloads\PythonPractices\python\pythonpratices\PytestFramework> python -m pytest -v -s ./fixture_tests.py
+==================================================================== test session starts ====================================================================
+platform win32 -- Python 3.12.3, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\Swapnil Patil\AppData\Local\Programs\Python\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Swapnil Patil\Downloads\PythonPractices\python\pythonpratices
+configfile: pytest.ini
+collected 4 items                                                                                                                                            
+
+fixture_tests.py::testfd_addition
+--session code execution started--
+
+--package code execution started--
+
+--module code execution started--
+
+--Function code execution started--
+FAILED
+ --function execution is done---
+
+fixture_tests.py::testfd_subtraction
+--Function code execution started--
+FAILED
+ --function execution is done---
+
+fixture_tests.py::testfd_multiplication
+--Function code execution started--
+PASSED
+ --function execution is done---
+
+fixture_tests.py::testfd_division
+--Function code execution started--
+PASSED
+ --function execution is done---
+
+ --module execution is done---
+
+ --package execution is done---
+
+ --session execution is done---
+
+
+========================================================================= FAILURES ========================================================================== 
+______________________________________________________________________ testfd_addition ______________________________________________________________________ 
+
+fun_setup = None
+
+    @pytest.mark.smoke
+    def testfd_addition(fun_setup):
+        a1=50
+        b1=60
+        c1=30
+>       assert a1+b1+c1==110
+E       assert ((50 + 60) + 30) == 110
+
+fixture_tests.py:60: AssertionError
+____________________________________________________________________ testfd_subtraction _____________________________________________________________________ 
+
+fun_setup = None
+
+    @pytest.mark.smoke
+    def testfd_subtraction(fun_setup):
+        a1=50
+        b1=60
+        c1=30
+>       assert a1-b1-c1==30
+E       assert ((50 - 60) - 30) == 30
+
+fixture_tests.py:66: AssertionError
+================================================================== short test summary info ================================================================== 
+FAILED fixture_tests.py::testfd_addition - assert ((50 + 60) + 30) == 110
+FAILED fixture_tests.py::testfd_subtraction - assert ((50 - 60) - 30) == 30
+================================================================ 2 failed, 2 passed in 0.22s ================================================================ 
+PS C:\Users\Swapnil Patil\Downloads\PythonPractices\python\pythonpratices\PytestFramework> 

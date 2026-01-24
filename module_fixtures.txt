@@ -1,0 +1,31 @@
+platform win32 -- Python 3.12.3, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\Swapnil Patil\AppData\Local\Programs\Python\Python312\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Swapnil Patil\Downloads\PythonPractices\python\pythonpratices
+configfile: pytest.ini
+collected 4 items                                                                                                                                            
+
+fixture_tests.py::testfd_addition
+--module code execution started--
+
+--Function code execution started--
+FAILED
+ --function execution is done---
+
+fixture_tests.py::testfd_subtraction
+--Function code execution started--
+FAILED
+ --function execution is done---
+
+fixture_tests.py::testfd_multiplication
+--Function code execution started--
+PASSED
+ --function execution is done---
+
+fixture_tests.py::testfd_division
+--Function code execution started--
+PASSED
+ --function execution is done---
+
+ --module execution is done---
+
+

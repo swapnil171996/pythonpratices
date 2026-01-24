@@ -15,6 +15,7 @@ print("addition of two:",c-d)
 e=60
 f=40
 
+
 print("multiply of two:",e*f)
 
 #Python program to repeat a given string 5 times.
@@ -112,7 +113,7 @@ while a>0:
     rem = a%10
     print("rem",rem)
     rev = rev +rem**3
-    print("rev", rem)
+    print("rev", rev)
     a= a//10
     print("a", a)
 
